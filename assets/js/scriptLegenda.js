@@ -78,9 +78,9 @@ var myChartBusiness = new Chart(cBusiness, {
           },
           ticks: {
             beginAtZero: true,
-            maxTicksLimit: 3,
+            maxTicksLimit: 6,
             min: 0,
-            max: 3,
+            max: 6,
             stepSize: .2,
             display: false
           }
@@ -137,9 +137,9 @@ var myChartPersonal = new Chart(cPersonal, {
           },
           ticks: {
             beginAtZero: true,
-            maxTicksLimit: 3,
+            maxTicksLimit: 6,
             min: 0,
-            max: 3,
+            max: 6,
             display: false
           }
         }
@@ -192,9 +192,9 @@ var myChartLeadership = new Chart(cLeadership, {
           },
           ticks: {
             beginAtZero: true,
-            maxTicksLimit: 3,
+            maxTicksLimit: 6,
             min: 0,
-            max: 3,
+            max: 6,
             display: false
           }
         }

@@ -8,7 +8,7 @@
     text-rendering: optimizeLegibility;
     -moz-font-feature-settings: "liga" on;
     font-family: 'Lato', sans-serif;
-    background: #2d2d2d;
+    background: #000000;
     color: #cccccc;
     font-size: 1.2em;
     font-weight: 400;
@@ -148,8 +148,8 @@
     font-family: 'Lato', sans-serif;
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
     margin: 20px 10px 0;
-    background: #323232;
-    background: rgba(50, 50, 50, 0.8);
+    background: #000000;
+    background: rgba(0, 0, 0, 0.8)
   }
   .m-chart h3 {
     text-align: center;
