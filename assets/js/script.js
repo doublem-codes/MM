@@ -10,7 +10,7 @@
 		var data = [
 			[//Progress
 				
-				{axis:"Automation",value:0.5},
+				{axis:"Automation         ",value:0.5},
 				{axis:"AI",value:0.32},
 				{axis:"Robotics",value:0.4},
 				{axis:"PLC",value:0.4},
