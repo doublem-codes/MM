@@ -12,9 +12,8 @@
 				{axis:"PLC",value:0.4},
 				{axis:"Robotics",value:0.4},	
 				{axis:"PC program dev",value:0.5},	
-				
 				{axis:"Design",value:0.4},				
-				{axis:"Automation",value:0.5},		
+				{axis:"_Automation",value:0.5},		
 				{axis:"AI",value:0.32}
 				
 				
@@ -23,8 +22,7 @@
 				{axis:"Robotics",value:0.27},			
 				{axis:"PC program dev",value:0.43},
 				{axis:"Design",value:0.4},
-				{axis:"Automation",value:0.4},
-				
+				{axis:"_Automation",value:0.4},
 				{axis:"AI",value:0.10},
 				
 			]
