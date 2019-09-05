@@ -35,7 +35,7 @@ Chart.defaults.radar.scale.gridLines = false;
 var myChartBusiness = new Chart(cBusiness, {
     type: 'radar',
     data: {
-      labels: [["PC program","dev"], ["PLC","dev"], "Design", "Automation"],
+      labels: [["PC program","dev"], ["PLC","dev"], "Design", "Automation", "Robotics"],
       datasets: [
           {
             label: "P.Practitioner",
@@ -47,7 +47,7 @@ var myChartBusiness = new Chart(cBusiness, {
             pointHoverRadius: 5,
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(242, 119, 122, 1)",
-            data: [2, 3, 2, 1]
+            data: [4.2, 4.8, 4, 4,2.3]
           },
           {
             label: "P.Manager",
@@ -59,7 +59,7 @@ var myChartBusiness = new Chart(cBusiness, {
             pointHoverRadius: 5,
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(102,153,204, 1)",
-            data: [2, 3, 3, 2]
+            data: [5, 4, 4, 5,5]
           }
       ]
     },
