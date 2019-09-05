@@ -35,10 +35,10 @@ Chart.defaults.radar.scale.gridLines = false;
 var myChartBusiness = new Chart(cBusiness, {
     type: 'radar',
     data: {
-      labels: [["PC program","dev"], ["PLC","dev"], "Design", "Automation", "Robotics"],
+      labels: [["PC","program","dev"], ["PLC","dev"], "Design", "Automation", "Robotics"],
       datasets: [
           {
-            label: "P.Practitioner",
+            label: "Current Skill",
             lineTension: 0.1,
             backgroundColor: "rgba(242, 119, 122, 0.2)",
             borderColor: "rgba(242, 119, 122, 1)",
@@ -50,7 +50,7 @@ var myChartBusiness = new Chart(cBusiness, {
             data: [4.2, 4.8, 4, 4,2.3]
           },
           {
-            label: "P.Manager",
+            label: "Level of interest",
             lineTension: 0.1,  
             backgroundColor: "rgba(102,153,204, 0.2)",
             borderColor: "rgba(102,153,204, 1)",
@@ -93,32 +93,20 @@ var myChartBusiness = new Chart(cBusiness, {
 var myChartPersonal = new Chart(cPersonal, {
     type: 'radar',
     data: {
-      labels: [["Inspire","Others"], ["Initiative","& Drive"], ["Personal","Effectiveness"], "Creativity",],
+      labels: [["OS","Windows"], ["OS","Linux"],["Ms","Office"], "Github" ],
       datasets: [
-          {
-            label: "P.Practitioner",
-            lineTension: 0.1,
-            backgroundColor: "rgba(102, 153, 204, 0.2)",
-            borderColor: "rgba(102, 153, 204, 1)",
-            pointBackgroundColor: "rgba(102, 153, 204, 1)",
-            pointBorderColor: "#fff",
-            pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(102, 153, 204, 1)",
-            data: [2, 2, 3, 3, 2]
-          },
-          {
-            label: "P.Manager",
-            lineTension: 0.1,
-            backgroundColor: "rgba(255, 204, 102, 0.2)",
-            borderColor: "rgba(255, 204, 102, 1)",
-            pointBackgroundColor: "rgba(255, 204, 102, 1)",
-            pointBorderColor: "#fff",
-            pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(255, 204, 102, 1)",
-            data: [3, 3, 3, 3, 2]
-          }
+        {
+          label: "Current Skill",
+          lineTension: 0.1,
+          backgroundColor: "rgba(242, 119, 122, 0.2)",
+          borderColor: "rgba(242, 119, 122, 1)",
+          pointBackgroundColor: "rgba(242, 119, 122, 1)",
+          pointBorderColor: "#fff",
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(242, 119, 122, 1)",
+          data: [5, 3.2, 4.6,5]
+        }
       ]
     },
     options: {
@@ -149,55 +137,56 @@ var myChartPersonal = new Chart(cPersonal, {
 var myChartLeadership = new Chart(cLeadership, {
     type: 'radar',
     data: {
-      labels: [["Relationship","Mgmt"], ["Talent","Mgmt"], ["Impact &","Influence"], ["Risk","Mgmt"],["Risk","Mgmt"]],
+      labels: [["App","dev"], ["Web","dev"], ["Artificial ","Intelligence"], "Robotics",],
       datasets: [
-          {
-            label: "P.Practitioner",
-            lineTension: 0.1,
-            backgroundColor: "rgba(102, 153, 204, 0.2)",
-            borderColor: "rgba(102, 153, 204, 1)",
-            pointBackgroundColor: "rgba(102, 153, 204, 1)",
-            pointBorderColor: "#fff",
-            pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(102, 153, 204, 1)",
-            data: [3, 2, 2, 3]
-          },
-          {
-            label: "P.Manager",
-            lineTension: 0.1,
-            backgroundColor: "rgba(255, 204, 102, 0.2)",
-            borderColor: "rgba(255, 204, 102, 1)",
-            pointBackgroundColor: "rgba(255, 204, 102, 1)",
-            pointBorderColor: "#fff",
-            pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(255, 204, 102, 1)",
-            data: [3, 2, 3, 2, 2]
-          }
-      ]
-    },
-    options: {
-        scale: {
-          angleLines: {
-            display: true,
-            lineWidth: 0.5,
-            color: 'rgba(128, 128, 128, 0.2)'
-          },
-          pointLabels: {
-            fontSize: 14,
-            fontStyle: '300',
-            fontColor: 'rgba(204, 204, 204, 1)',
-            fontFamily: "'Lato', sans-serif"
-          },
-          ticks: {
-            beginAtZero: true,
-            maxTicksLimit: 6,
-            min: 0,
-            max: 6,
-            display: false
-          }
+        {
+          label: "Current Skill",
+          lineTension: 0.1,
+          backgroundColor: "rgba(242, 119, 122, 0.2)",
+          borderColor: "rgba(242, 119, 122, 1)",
+          pointBackgroundColor: "rgba(242, 119, 122, 1)",
+          pointBorderColor: "#fff",
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(242, 119, 122, 1)",
+          data: [0.8, 2, 1.2, 3]
+        },
+        {
+          label: "Level of interest",
+          lineTension: 0.1,  
+          backgroundColor: "rgba(102,153,204, 0.2)",
+          borderColor: "rgba(102,153,204, 1)",
+          pointBackgroundColor: "rgba(102,153,204, 1)",
+          pointBorderColor: "#fff",
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: "#fff",
+          pointHoverBorderColor: "rgba(102,153,204, 1)",
+          data: [2.5, 2.5, 5, 5]
         }
+    ]
+  },
+    options: {
+      scale: {
+        angleLines: {
+          display: true,
+          lineWidth: 0.5,
+          color: 'rgba(128, 128, 128, 0.2)'
+        },
+        pointLabels: {
+          fontSize: 14,
+          fontStyle: '300',
+          fontColor: 'rgba(204, 204, 204, 1)',
+          fontFamily: "'Lato', sans-serif"
+        },
+        ticks: {
+          beginAtZero: true,
+          maxTicksLimit: 6,
+          min: 0,
+          max: 6,
+          stepSize: .2,
+          display: false
+        }
+      }
     }
 });
 
