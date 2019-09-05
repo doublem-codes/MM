@@ -9,29 +9,23 @@
   
 		var data = [
 			[//Progress
-				
-				{axis:"Automation             .",value:0.5},
-				{axis:"Robotics",value:0.4},
-				{axis:"AI",value:0.32},
-				
 				{axis:"PLC",value:0.4},
-				{axis:"Web Dev",value:0.20},
+				{axis:"Robotics",value:0.4},
+				{axis:"Design",value:0.4},
+				
+				{axis:"Automation",value:0.5},				
 				{axis:"PC program dev",value:0.5},			
-				{axis:"App dev",value:0.3},	
-				{axis:"Design",value:0.4}
+				{axis:"AI",value:0.32}
 				
 				
 			],
-			[	
-				{axis:"Automation             .",value:0.4},
+			[	{axis:"PLC",value:0.48},
 				{axis:"Robotics",value:0.27},
-				{axis:"AI",value:0.10},
-				
-				{axis:"PLC",value:0.48},
-				{axis:"Web Dev",value:0.15},
+				{axis:"Design",value:0.4},
+							
+				{axis:"Automation",value:0.4},
 				{axis:"PC program dev",value:0.43},
-				{axis:"App dev",value:0.10},
-				{axis:"Design",value:0.4}
+				{axis:"AI",value:0.10},
 				
 			]
 		];
