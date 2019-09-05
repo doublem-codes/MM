@@ -8,35 +8,25 @@
   //////////////////////////////////////////////////////////////////////////////////////// Data ////////////////////////////////////////////////////////////////////////////////////////////
   
 		var data = [
-			  [//Skills
-				{axis:"Java",value:0.45},
-				{axis:"Lua",value:0.25},
-				{axis:"Python",value:0.42},
-			{axis:"Javascript",value:0.35},
-				{axis:"Ruby",value:0.2},
-				{axis:"Web Dev",value:0.35},	
-				{axis:"Bash",value:0.28},
-				{axis:"C++",value:0.375}
-			],
 			[//Progress
-				{axis:"Java",value:0.125},
-				{axis:"Lua",value:0.25},
-				{axis:"Python",value:0.3},
-				{axis:"Javascript",value:0.46},
-				{axis:"Perl",value:0.1},
-				{axis:"Web Dev",value:0.38},	
-				{axis:"Bash",value:0.31},
-				{axis:"C++",value:0.22}
+				{axis:"PC program dev",value:0.5},
+				{axis:"Artificial Intelligence",value:0.32},
+				{axis:"Robotics",value:0.4},
+				{axis:"PLC",value:0.4},
+				{axis:"Design",value:0.4},
+				{axis:"Web Dev",value:0.20},	
+				{axis:"Automation",value:0.5},
+				{axis:"App development",value:0.3}
 			],
 			[
-				{axis:"Java",value:0.24},
-				{axis:"Lua",value:0.10},
-				{axis:"Python",value:0.36},
-				{axis:"Javascript",value:0.21},
-				{axis:"Perl",value:0.15},
+				{axis:"PC program dev",value:0.43},
+				{axis:"Artificial Intelligence",value:0.10},
+				{axis:"Robotics",value:0.27},
+				{axis:"PLC",value:0.48},
+				{axis:"Design",value:0.4},
 				{axis:"Web Dev",value:0.15},	
-				{axis:"Bash",value:0.22},
-				{axis:"C++",value:0.27}
+				{axis:"Automation",value:0.4},
+				{axis:"App development",value:0.10}
 			]
 		];
   
@@ -44,7 +34,7 @@
   //////////////////// Draw the Chart //////////////////////////
   //////////////////////////////////////////////////////////////
   
-  var color = d3.scale.ordinal().range(["#EDC951", "#00A0B0", "#CC333F"]);
+  var color = d3.scale.ordinal().range(["#F2777A", "#6699CC", "#CC333F"]);
   
   var radarChartOptions = {
    w: width,
