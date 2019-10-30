@@ -137,7 +137,7 @@ var myChartPersonal = new Chart(cPersonal, {
 var myChartLeadership = new Chart(cLeadership, {
     type: 'radar',
     data: {
-      labels: [["App","dev"], ["Web","dev"], ["Artificial ","Intelligence"], "Robotics",],
+      labels: [["App","dev"], ["Web","dev"], ["Artificial ","Intelligence"]],
       datasets: [
         {
           label: "Current Skill",
@@ -149,7 +149,7 @@ var myChartLeadership = new Chart(cLeadership, {
           pointHoverRadius: 5,
           pointHoverBackgroundColor: "#fff",
           pointHoverBorderColor: "rgba(242, 119, 122, 1)",
-          data: [0.8, 2, 1.2, 3]
+          data: [0.8, 2, 1.2]
         },
         {
           label: "Level of interest",
@@ -161,7 +161,7 @@ var myChartLeadership = new Chart(cLeadership, {
           pointHoverRadius: 5,
           pointHoverBackgroundColor: "#fff",
           pointHoverBorderColor: "rgba(102,153,204, 1)",
-          data: [2.5, 2.5, 5, 5]
+          data: [2.5, 2.5, 5]
         }
     ]
   },
